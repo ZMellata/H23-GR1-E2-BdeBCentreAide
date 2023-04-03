@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="container">
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>General Information</h1>
+            </div>
+            <div class="subforum-row">
+                <div class="subforum-icon subforum-column center">
+                    <i class="fa-solid fa-school"></i>
+                </div>
+                <div class="subforum-description subforum-column">
+                    <h1><a href="">Description Title : </a></h1>
+                    <p>Description Content :  </p>
+
+                </div>
+                <div class="subforum-stats subforum-column center">
+                    <span>24 Posts | 15 Topics</span>
+                </div>
+                <div class="subforum-info subforum-column">
+                    <b><a href="">Last Post</a></b> by <a href="">JustAUser</a>
+                    <br>Écrit le : 6 Mars 2023
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--Forum info-->
+    <div class="forum-info">
+        <div class="chart">
+            My Forum - Stats &nbsp;<i class="fa-solid fa-chart-simple"></i>
+        </div>
+        <div>
+            <span><u>X</u> Posts in <u>Y</u> Topics by <u>Z</u> Users</span><br>
+            <span>Latest Post: <b><a href="#">Random Post </a></b>le 13 mars 2023 par <a href="#">RandomUser</a></span>
+        </div>
+    </div>
+{% endblock %}
