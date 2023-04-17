@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
 Plan de projet d’intégration
 
 
@@ -121,10 +131,6 @@ Technologie à utiliser et à apprendre -
 
 
 
-
-
-
-<!DOCTYPE html>
   <html xmlns="http://www.w3.org/1999/xhtml">
        <head>
             <title>Essential JS 2</title>
