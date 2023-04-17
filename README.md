@@ -1,10 +1,5 @@
 
 
-
-
-
-
-
 <!DOCTYPE html>
 
 
@@ -128,6 +123,15 @@ Technologie à utiliser et à apprendre -
 *CSS
 *JavaScript
 *Django Python
+
+
+Diagramme de Gantt
+
+![image](https://user-images.githubusercontent.com/123408722/232568339-4736990e-dd65-442b-a74e-a68274e9c4fe.png)
+
+Diagramme de Classe 
+
+![image](https://user-images.githubusercontent.com/123408722/232568477-659a249a-b179-4dda-8ea2-2fd9cb4a7b35.png)
 
 
 
