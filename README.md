@@ -54,6 +54,8 @@ Zino – Fais de la recherche sur HTML
 Prawin – Faire le plan et de à rechercher sur HTML
 Anthony - Faire le plan et de à rechercher sur HTML
 
+POUR TOUS APPRENDRE DJANGO  !
+
 (Voir le diagramme GANTT)
 
 
