@@ -260,14 +260,7 @@ Diagramme de Gantt
 Diagramme de classe UML–	
 ![image](https://github.com/ZMellata/H23-GR1-E2-BdeBCentreAide/assets/123408722/9d1e610b-3e0c-4741-b9a3-f05cc6103504)
 
- 
- Lien Vidéo démonstration:
- https://bdebqcca-my.sharepoint.com/:v:/g/personal/2086074_bdeb_qc_ca/Eb4BcV4Pj3NNoFXO81FcM4MBg8th16NjQfUeyRWOKop_DQ?e=Sn4PFz 
-![image](https://github.com/ZMellata/H23-GR1-E2-BdeBCentreAide/assets/123408722/eb3fdc6f-558e-47dd-8fcd-3c0e9737c2ef)
 
+https://bdebqcca-my.sharepoint.com/:v:/g/personal/2031479_bdeb_qc_ca/Eb6gzrZS1JFEq5I6ttl5Y7IB2_sMR0FAOfLyCTbjgStmlA?e=3Md6K8
 
-https://bdebqcca-my.sharepoint.com/:v:/g/personal/2086074_bdeb_qc_ca/Eb4BcV4Pj3NNoFXO81FcM4MBg8th16NjQfUeyRWOKop_DQ?e=Sn4PFz 
-![image](https://github.com/ZMellata/H23-GR1-E2-BdeBCentreAide/assets/123408722/624a84a8-efdf-40b7-8d88-587b7600fb92)
-
- 
-
+https://bdebqcca-my.sharepoint.com/:v:/g/personal/2031479_bdeb_qc_ca/ETotbxsWuvRKh-hdsr5EGxQB0Ab0jut_bK9cWJgOrpEMHg?e=n1DgrM
