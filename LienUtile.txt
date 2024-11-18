@@ -1,0 +1,43 @@
+Lien utilisé pour réaliser le projet
+
+
+django calendar : https://www.youtube.com/playlist?list=PLCC34OHNcOtqW9BJmgQPPzUpJ8hl49AGy
+
+ 
+
+html tutoriel :
+https://www.youtube.com/watch?v=G3e-cpL7ofc&t=13537s
+
+ 
+
+django tutoriel:
+https://www.youtube.com/watch?v=PtQiiknWUcI&t=4861s
+
+ 
+
+virtual env W3s:
+https://www.w3schools.com/django/django_create_virtual_environment.php
+
+ 
+
+pip install django W3s:
+https://www.w3schools.com/django/django_install_django.php
+
+ 
+
+HTML Basic
+https://www.w3schools.com/html/html_basic.asp
+
+ 
+
+CSS Tutorial
+https://www.w3schoolsCSS Tutorial.com/css/default.asp
+
+ 
+
+Django python tutorial
+https://www.w3schools.com/django/index.php
+
+ 
+
+https://www.w3schools.com/js/DEFAULT.asp

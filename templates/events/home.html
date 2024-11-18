@@ -1,0 +1,18 @@
+{% extends 'events/base.html' %} <!--Page qui affiche le calendrier-->
+
+{% block content %} <!--Prend les choses dans les blocktag et l'utilsent dans base.html-->
+    <body body style="background-color:#2d2d39;">
+        <center>    
+            <h1 style="color:#b2bdbd;">Calendrier</h1> <!--From views.py to home page--> 
+        
+            <center style="color: #b2bdbd;">Il est {{ time }}
+            
+                <br/><br/>
+                {{ cal|safe }} <!-- |safe enleve le "safeguard" -->
+                <br/><br/><br/><br/>
+        
+            </center>
+        </center>>    
+    </body>
+{% endblock %}
+

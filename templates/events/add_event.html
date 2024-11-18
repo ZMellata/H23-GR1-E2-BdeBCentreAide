@@ -1,0 +1,23 @@
+<body body style="background-color:#2d2d39;" style="color: #b2bdbd;"> <!--Page pour ajouter des evenement-->
+    {% extends 'events/base.html' %}
+
+    {% block content %}
+
+    {% if submitted  %}
+            L'événement a été créé !
+
+        {% else %}
+
+            <form action="" method=POST style="color: #b2bdbd;">
+                {% csrf_token %}
+
+                {{ form.as_p }}
+
+                <input type="submit" value="Créer" class="btn btn-secondary">
+
+            </form>
+            {% endif %}
+        
+    <br/><br/>
+    {% endblock %}
+</body>   

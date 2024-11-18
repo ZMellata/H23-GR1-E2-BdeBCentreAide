@@ -1,0 +1,20 @@
+<body body style="background-color:#2d2d39;"> <!--Page qui permet de modifier les cours-->
+    {% extends 'events/base.html' %}
+
+    {% block content %} 
+        
+        <h1 style="color:#b2bdbd;">Modification du cours</h1>
+        <br/>
+        <form action="" method=POST style="color:#b2bdbd;">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <br/>
+            <input type="submit" value="Modifier" class="btn btn-secondary">
+        </form>
+        
+        
+            
+        
+
+    {% endblock %}
+</body>

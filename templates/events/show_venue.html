@@ -1,0 +1,30 @@
+<body body style="background-color:#2d2d39;"> <!--Page qui affiche les information du cours-->
+    {% extends 'events/base.html' %}
+
+    {% block content %} <!--Prend les choses dans les blocktag et l'utilsent dans base.html-->
+        
+        
+        <div class="card">
+            <div class="card-header">
+                Cours
+            </div>
+            <div class="card-body">
+            <h5 class="card-title">{{ venue }}</h5>
+            <p class="card-text">
+                <ul>
+            
+                <li>{{ venue.manager }}</li>
+                <li>{{ venue.attendees }}</li>
+                <!--<li>{{ venue.phone }}</li>
+                <li>{{ venue.email_address }}</li>
+                <li><a href="{{venue.web}}">{{ venue.web }}</a></li>-->
+                <ul>
+            
+                <p/>
+            </div>    
+        </div>
+        
+
+        </center>
+    {% endblock %}
+</body>

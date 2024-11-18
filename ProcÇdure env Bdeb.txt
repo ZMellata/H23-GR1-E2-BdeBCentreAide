@@ -1,0 +1,21 @@
+python -m vitualenv env 
+env/Scripts/activate : pour activer le env
+py -m pip install Django
+
+pip install... les requirements : 
+
+asgiref==3.4.1
+autopep8==1.5.7
+Django==3.2.7
+django-cors-headers==3.8.0
+djangorestframework==3.12.4
+Pillow==8.3.2
+pycodestyle==2.7.0
+pytz==2021.1
+sqlparse==0.4.2
+toml==0.10.2
+
+python manage.py runserver
+
+pour changer de mois dans calendrier aller dans le url écrire l'année suivie du mois
+    ex: http://localhost:8000/2024/March/

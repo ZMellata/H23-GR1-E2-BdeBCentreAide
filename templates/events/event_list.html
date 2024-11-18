@@ -1,0 +1,43 @@
+<body body style="background-color:#2d2d39;"> <!--Page qui affiche tout les evenenments-->
+    {% extends 'events/base.html' %}
+
+    {% block content %} <!--Prend les choses dans les blocktag et l'utilsent dans base.html-->
+    
+        <h1 style="color: #b2bdbd;">Événements</h1> <!--From views.py to home page-->
+        <br/>
+        
+    {% for event in event_list %}
+
+    <div class="card">
+        <div class="card-header" style="background-color: #b2bdbd;">
+            {{ event }}
+        </div>
+        <div class="card-body" style="background-color:#3f4156;">
+        <h5 class="card-title" style="color: #b2bdbd;">Cours: {{ event.venue }}</h5>
+        <p class="card-text" style="color: #b2bdbd;">
+        <strong>Date:</strong> {{ event.event_date }}<br/>
+        <strong>Professeur:</strong> {{ event.manager }}<br/>
+        <strong>Description:</strong> {{ event.description }}<br/>
+        <strong>Participants:</strong><br/>
+            {% for user in event.attendees.all %}
+            {{ user }} 
+            {% endfor %}
+        
+            <p/>
+        </div>
+        <div class="card-footer text-muted" style="background-color: #b2bdbd;">
+            <a href="{% url 'update-event' event.id %}" class="btn btn-outline-secondary btn-sm">Modifier l'événement</a>
+            <a href="{% url 'delete-event' event.id %}" class="btn btn-outline-danger btn-sm">Surpprimer l'événement</a>
+        </div>  
+    </div>
+
+
+    
+        
+        <br/><br/>
+    {% endfor %}
+
+    
+
+    {% endblock %}
+</body>

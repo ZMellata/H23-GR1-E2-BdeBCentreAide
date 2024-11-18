@@ -1,0 +1,21 @@
+<body body style="background-color:#2d2d39;"> <!--Page qui affiche les cours-->
+    {% extends 'events/base.html' %}
+
+    {% block content %} 
+
+        <h1 style="color:#b2bdbd;">Les Cours</h1> 
+        <br/>
+        <table class="table table-striped table-hover table-bordered" style="background-color:#3f4156;">    
+            {% for venue in venue_list %}
+                <tr>
+                <td><a href="{% url 'show-venue' venue.id %}">{{ venue }}</a><br/></td>
+                <td align="right"><!-- table -->
+                    <a href="{% url 'update-venue' venue.id %}" class="btn btn-outline-secondary btn-sm">Modifier</a>
+                    <a href="{% url 'delete-venue' venue.id %}" class="btn btn-outline-danger btn-sm">Surpprimer</a>
+                </td>
+                </tr>
+            {% endfor %}
+        </table>
+
+    {% endblock %}
+</body>

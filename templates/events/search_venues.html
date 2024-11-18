@@ -1,0 +1,21 @@
+<body body style="background-color:#2d2d39;"> <!--Page qui affiche ce qu'on cherche dans la barre du calendrier-->
+    {% extends 'events/base.html' %}
+
+    {% block content %} <!--Prend les choses dans les blocktag et l'utilsent dans base.html-->
+        <center style="color:#b2bdbd;">
+        {% if searched %}    
+            <h1>Vous avez cherché {{ searched }}</h1> <!--From views.py to home page-->
+            <br/>
+            {% for venue in venues %}
+                <a href="{% url 'show-venue' venue.id %}">{{ venue }}<br/>
+            {% endfor %}
+
+            {% else %}
+                <h1>Vous avez rien cherché</h1>
+            {% endif %}
+        
+            
+        
+        </center>
+    {% endblock %}
+</body>
